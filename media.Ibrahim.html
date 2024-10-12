@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .container {
+                width: 100%;
+                background-color: black;
+                min-height: 100vh;
+            }
+
+            .main {
+                color: yellow;
+                display: inline;
+            }
+
+            div {
+                background-color: red;
+                width: 23vw;
+                height: 80vh;
+                display: inline-block;
+            }
+
+            p {
+                display: inline-block;
+                margin: 20px;
+                font-size: 20px;
+            }
+        @media screen and (max-width:900px) {
+
+            .container {
+            width:100%;
+            background-color:green;
+            min-height: 100vh;
+        }
+            
+        .main {
+            
+            color: rgb(255, 255, 255);
+            display:inline;
+
+        }
+        div{
+            display:inline-block;
+            width:48vw;
+            height:50vh;
+            background-color: aqua;
+            border: 1px green solid;
+        }
+        p{
+            display: inline-block;
+            color:white;
+            font-size:20px;
+            padding: 20px;
+        }
+
+        }
+        @media screen and (max-width:600px){
+            .container{
+                background-color: red;
+                min-height: 100vh;
+            }
+            div{
+                display: inline-block;
+                margin-bottom: 5px;
+                background-color: green;
+                width:100vw;
+                height:25vh;
+            }
+            p{
+                display:inline-block;
+                color: aqua;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="bir">
+                <p>Lorem</p>
+            </div>
+            <div class="iki">
+                <p>Lorem</p>
+            </div>
+            <div class="uc">
+                <p>Lorem</p>
+            </div>
+            <div class="dort">
+                <p>Lorem</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
